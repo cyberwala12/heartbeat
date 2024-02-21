@@ -1,0 +1,30 @@
+.hert{
+    height: 800px;
+    width: auto;
+    margin: auto;
+    display:block;
+    animation-name: nitish;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+    animation-direction: alternate;
+}
+@keyframes nitish{
+    0%{
+        transform: scale(1);
+    }
+    5%{
+        transform: scale(1.2);
+    }
+    10%{
+        transform: scale(1.1);
+    }
+    15%{
+        transform: scale(1.25);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
